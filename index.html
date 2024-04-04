@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="CSS/style.css">
    <!---add link font awesome-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="icon" href="img/company_logo.png">
 </head>
 <body>
 
@@ -228,7 +229,11 @@
    let icon = document.querySelector(".fa-bars");
 
    icon.onclick = () =>{
-      navbar.classList.toggle("active")
+      navbar.classList.toggle("active");
+   }
+
+   icon.scroll= ()=>{
+    navbar.classList.toggle("active");
    }
  </script>
 
