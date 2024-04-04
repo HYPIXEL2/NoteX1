@@ -16,10 +16,10 @@
    <header>
       <img class="logo" src="img/logo.png" alt="logo">
       <nav class="navbar" >
-         <a href="#home"    style="--i: 1;" >home</a>
-         <a href="#product" style="--i:2 ;" >product</a>
-         <a href="#devs"  style="--i:3 ;"  >our-team</a>
-         <a href="#contact" style="--i:4 ;"   >contact</a>
+         <a class="nav-a" href="#home"    style="--i: 1;" >home</a>
+         <a class="nav-b" href="#product" style="--i:2 ;" >product</a>
+         <a class="nav-c" href="#devs"  style="--i:3 ;"  >our-team</a>
+         <a class="nav-d" href="#contact" style="--i:4 ;"   >contact</a>
       </nav>
       <i class="fa-solid fa-bars"></i>
    </header>
@@ -231,6 +231,27 @@
    icon.onclick = () =>{
       navbar.classList.toggle("active");
    }
+
+     let anchora = document.querySelector('.nav-a');
+   anchora.onclick= ()=>{
+    navbar.classList.toggle("active");
+   }
+
+   let anchorb = document.querySelector('.nav-b');
+   anchorb.onclick= ()=>{
+    navbar.classList.toggle("active");
+   }
+
+   let anchorc = document.querySelector('.nav-c');
+   anchorc.onclick= ()=>{
+    navbar.classList.toggle("active");
+   }
+
+   let anchord = document.querySelector('.nav-d');
+   anchord.onclick= ()=>{
+    navbar.classList.toggle("active");
+   }
+
 
   
  </script>
