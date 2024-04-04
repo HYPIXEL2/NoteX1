@@ -403,6 +403,10 @@ textarea{
 }
 
 @media(max-width:768px){
+   #br{
+   display:none;
+   }
+   
   .home{
     margin-top: 120px;
   }
@@ -509,6 +513,4 @@ textarea{
 
 }
 
-#br{
-   display:none;
-}
+
