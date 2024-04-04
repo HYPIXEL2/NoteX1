@@ -375,6 +375,11 @@ textarea{
  
 /*----------------responsive-------------------------*/
 @media(max-width:998px){
+   .home{
+    margin-top: 120px;
+  }
+
+   
   .home img{
    height: 300px;
   }
