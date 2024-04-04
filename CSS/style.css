@@ -388,6 +388,16 @@ textarea{
   .contact .input-box input{
    width: 100%;
   }
+
+  header nav{
+    display: none;
+  }
+
+  .navbar.active{
+    display: block;
+ }
+
+
 }
 
 @media(max-width:768px){
