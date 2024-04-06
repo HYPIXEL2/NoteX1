@@ -50,6 +50,7 @@ section {
 
 html::-webkit-scrollbar{
   width: 1rem;
+   border:none;
 }
 
 html::-webkit-scrollbar-track{
