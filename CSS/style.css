@@ -103,7 +103,7 @@ header .logo{
 header .navbar a {
    font-size: 17px;
    color: var(--fontClr);
-   padding: 10px 20px;
+   padding: 5px 10px;
    border-radius: 20px;
    font-weight: 500;
    animation: slideRight .6s ease forwards;
@@ -112,6 +112,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
+   box-shadow:0 0 1rem var(--cl);
    background-color: var(--cl);
    color: var(--bg);
 
