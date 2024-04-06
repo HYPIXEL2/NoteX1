@@ -38,6 +38,18 @@ section {
    padding: 6%;
 }
 
+html::-webkit-scrollbar{
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: var(--cl);
+}
+
 body {
    background-color: var(--bg);
 }
