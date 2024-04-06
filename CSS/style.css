@@ -10,6 +10,14 @@
    scroll-behavior: smooth;
    text-decoration: none;
 }
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
 span{
    color: #0ef;
 }
